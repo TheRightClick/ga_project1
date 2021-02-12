@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Rock Paper Scissors</title>
-        <meta name="description" content="">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/app.js" async defer></script>
-    </head>
-    <body>
-        <div id="scoreboard">
-            <h2>Player</h2>
-            <div id="playerScore"></div>
-            <h2>Computer</h2>
-            <div id="computerScore"></div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock Paper Scissors</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" async defer></script>
+</head>
+
+<body>
+    <div id="scoreboard">
+        <h2>Player</h2>
+        <div id="playerScore"></div>
+        <h2>Computer</h2>
+        <div id="computerScore"></div>
+
+    </div>
+    <div id='game-area'>
+        <div id="instructions">
+            <h1>Press button to select.</h1>
+        </div>
+        <div id="selectionButtons">
+            <button type="button" class="button" id="rock">
+                <button type="button" class="button" id="paper">
+                    <button type="button" class="button" id="scissors">
 
         </div>
-       <div id='game-area'>
-           <div id="instructions">
-        <h1>Press button to select.</h1>
-            </div>
-        <div id = "selectionButtons">
-      <button type="button" class ="button" id = "rock">
-      <button type="button" class ="button" id = "paper">
-      <button type="button" class = "button" id = "scissors">
-       
-        </div> 
         <div id="resultsDiv">
         </div>
         <div id="newIcons" class="btn-group btn-group-toggle" data-toggle="buttons">
@@ -39,6 +41,7 @@
             <button id="mode3">Cockfight Simulator</button>
         </div>
     </div>
-        
-    </body>
+
+</body>
+
 </html>
